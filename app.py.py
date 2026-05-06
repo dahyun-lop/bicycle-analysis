@@ -6,8 +6,8 @@ import os
 
 # 1. 페이지 설정 및 제목
 st.set_page_config(page_title="따릉이 데이터 분석 대시보드", layout="wide")
-st.title("🚲 서울시 따릉이 이용 현황 데이터 분석")
-st.markdown("---")
+st.title("🚲 서울시 따릉이 자전거 공공데이터 분석 대시보")
+st.markdown("공공데이터를 활용해 따릉이 자전거 이용 패턴을 분석한 결과입니다.")
 
 # 2. 데이터베이스 존재 확인
 DB_PATH = 'bicycle.db'
